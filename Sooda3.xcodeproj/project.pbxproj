@@ -13,6 +13,7 @@
 		48267D842B46E6F500B30D6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48267D822B46E6F500B30D6C /* Main.storyboard */; };
 		48267D862B46E6F700B30D6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48267D852B46E6F700B30D6C /* Assets.xcassets */; };
 		48267D892B46E6F700B30D6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48267D872B46E6F700B30D6C /* LaunchScreen.storyboard */; };
+		48267D912B46E75500B30D6C /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 48267D902B46E75500B30D6C /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		48267D852B46E6F700B30D6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48267D882B46E6F700B30D6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		48267D8A2B46E6F700B30D6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48267D902B46E75500B30D6C /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				48267D852B46E6F700B30D6C /* Assets.xcassets */,
 				48267D872B46E6F700B30D6C /* LaunchScreen.storyboard */,
 				48267D8A2B46E6F700B30D6C /* Info.plist */,
+				48267D902B46E75500B30D6C /* .gitignore */,
 			);
 			path = Sooda3;
 			sourceTree = "<group>";
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48267D912B46E75500B30D6C /* .gitignore in Resources */,
 				48267D892B46E6F700B30D6C /* LaunchScreen.storyboard in Resources */,
 				48267D862B46E6F700B30D6C /* Assets.xcassets in Resources */,
 				48267D842B46E6F500B30D6C /* Main.storyboard in Resources */,
