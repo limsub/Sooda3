@@ -12,6 +12,9 @@
 		48267D862B46E6F700B30D6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48267D852B46E6F700B30D6C /* Assets.xcassets */; };
 		48267D892B46E6F700B30D6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48267D872B46E6F700B30D6C /* LaunchScreen.storyboard */; };
 		48267D912B46E75500B30D6C /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 48267D902B46E75500B30D6C /* .gitignore */; };
+		48267DA12B46E92D00B30D6C /* ColorSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48267DA02B46E92D00B30D6C /* ColorSet.swift */; };
+		48267DA32B46E93400B30D6C /* UIColor+AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48267DA22B46E93400B30D6C /* UIColor+AppColor.swift */; };
+		48267DA52B46E93B00B30D6C /* UIColor+HexCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48267DA42B46E93B00B30D6C /* UIColor+HexCode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		48267D882B46E6F700B30D6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		48267D8A2B46E6F700B30D6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		48267D902B46E75500B30D6C /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		48267DA02B46E92D00B30D6C /* ColorSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSet.swift; sourceTree = "<group>"; };
+		48267DA22B46E93400B30D6C /* UIColor+AppColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+AppColor.swift"; sourceTree = "<group>"; };
+		48267DA42B46E93B00B30D6C /* UIColor+HexCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+HexCode.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,8 @@
 		48267D942B46E8A000B30D6C /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				48267D9C2B46E90900B30D6C /* Repository */,
+				48267D9B2B46E90500B30D6C /* Network */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -99,6 +107,9 @@
 		48267D962B46E8A500B30D6C /* Domain */ = {
 			isa = PBXGroup;
 			children = (
+				48267D9F2B46E91800B30D6C /* Entity */,
+				48267D9E2B46E91500B30D6C /* UseCase */,
+				48267D9D2B46E91300B30D6C /* Interface */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
@@ -125,6 +136,8 @@
 		48267D992B46E8AD00B30D6C /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				48267DA22B46E93400B30D6C /* UIColor+AppColor.swift */,
+				48267DA42B46E93B00B30D6C /* UIColor+HexCode.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -132,8 +145,44 @@
 		48267D9A2B46E8AF00B30D6C /* Constant */ = {
 			isa = PBXGroup;
 			children = (
+				48267DA02B46E92D00B30D6C /* ColorSet.swift */,
 			);
 			path = Constant;
+			sourceTree = "<group>";
+		};
+		48267D9B2B46E90500B30D6C /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		48267D9C2B46E90900B30D6C /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		48267D9D2B46E91300B30D6C /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		48267D9E2B46E91500B30D6C /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		48267D9F2B46E91800B30D6C /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,6 +257,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				48267D7D2B46E6F500B30D6C /* AppDelegate.swift in Sources */,
+				48267DA32B46E93400B30D6C /* UIColor+AppColor.swift in Sources */,
+				48267DA12B46E92D00B30D6C /* ColorSet.swift in Sources */,
+				48267DA52B46E93B00B30D6C /* UIColor+HexCode.swift in Sources */,
 				48267D7F2B46E6F500B30D6C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
