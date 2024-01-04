@@ -54,14 +54,86 @@
 		48267D7B2B46E6F500B30D6C /* Sooda3 */ = {
 			isa = PBXGroup;
 			children = (
-				48267D7C2B46E6F500B30D6C /* AppDelegate.swift */,
-				48267D7E2B46E6F500B30D6C /* SceneDelegate.swift */,
-				48267D852B46E6F700B30D6C /* Assets.xcassets */,
-				48267D872B46E6F700B30D6C /* LaunchScreen.storyboard */,
-				48267D8A2B46E6F700B30D6C /* Info.plist */,
+				48267D982B46E8AA00B30D6C /* Util */,
+				48267D972B46E8A800B30D6C /* Resource */,
+				48267D962B46E8A500B30D6C /* Domain */,
+				48267D952B46E8A200B30D6C /* Presentation */,
+				48267D942B46E8A000B30D6C /* Data */,
+				48267D932B46E89D00B30D6C /* Network */,
+				48267D922B46E89600B30D6C /* Application */,
 				48267D902B46E75500B30D6C /* .gitignore */,
 			);
 			path = Sooda3;
+			sourceTree = "<group>";
+		};
+		48267D922B46E89600B30D6C /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				48267D7C2B46E6F500B30D6C /* AppDelegate.swift */,
+				48267D7E2B46E6F500B30D6C /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		48267D932B46E89D00B30D6C /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		48267D942B46E8A000B30D6C /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		48267D952B46E8A200B30D6C /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		48267D962B46E8A500B30D6C /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		48267D972B46E8A800B30D6C /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				48267D852B46E6F700B30D6C /* Assets.xcassets */,
+				48267D872B46E6F700B30D6C /* LaunchScreen.storyboard */,
+				48267D8A2B46E6F700B30D6C /* Info.plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		48267D982B46E8AA00B30D6C /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				48267D9A2B46E8AF00B30D6C /* Constant */,
+				48267D992B46E8AD00B30D6C /* Extension */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		48267D992B46E8AD00B30D6C /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		48267D9A2B46E8AF00B30D6C /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constant;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,7 +354,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2S9WHYP486;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Sooda3/Info.plist;
+				INFOPLIST_FILE = Sooda3/Resource/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -312,7 +384,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2S9WHYP486;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Sooda3/Info.plist;
+				INFOPLIST_FILE = Sooda3/Resource/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
